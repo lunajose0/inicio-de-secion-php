@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.imagen-luna {
+
+    width: 30px;
+
+    height: 30px;
+
+    display: block;
+
+    margin: 0 auto; /* Elimina el margen negativo */
+
+}
+
+.dark-mode-toggle{
+    width: 30px; /* Asegúrate de que el botón tenga el mismo tamaño */
+
+    height: 30px;
+
+    border-radius: 50%; /* Hace que el botón sea redondo */
+
+    display: block; /* Asegura que el botón se comporte como un bloque */
+
+    margin: 0; /* Elimina cualquier margen */
+
+}
+
+.login-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.login-container h2 {
+    margin-bottom: 20px;
+}
+
+.login-container input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box; /* Para que el padding no afecte el ancho total */
+}
+
+.login-container button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.login-container button:hover {
+    background-color: #0056b3;
+}
+
+.error {
+    color: red;
+    display: none;
+    margin-top: 10px; /* Espacio entre el botón y el mensaje de error */
+}
+
+
+
+
+
+.bienvenida-container {
+    text-align: center; /* Centra el texto */
+}
+.bienvenida-container h1 {
+    color: #007BFF; /* Un toque de color */
+    margin-bottom: 20px;
+}
+.bienvenida-container p {
+    font-size: 1.2em; /* Un tamaño de fuente un poco mayor */
+    line-height: 1.6; /* Mejora la legibilidad */
+}
+.imagen-tecnologia {
+    max-width: 30%; /* La imagen no se desbordará */
+    height: auto; /* Mantiene la proporción */
+    display: block; /* Evita espacios extra debajo de la imagen */
+    margin: 20px auto; /* Centra la imagen horizontalmente */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
